@@ -1,0 +1,4 @@
+#Wed Oct 09 23:11:11 IST 2019
+base.0=/home/indu/AndroidStudioProjects/visio/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
