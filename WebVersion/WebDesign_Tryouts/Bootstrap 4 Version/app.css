@@ -1,6 +1,7 @@
 body {
-    background: #2078c9;
+    background: #45628a;
     font-family: "Lato", sans-serif;
+    color: white;
 }
 
 #mainNavbar {
@@ -19,6 +20,10 @@ body {
 #mainNavbar .navbar-brand {
     color: white;
     font-size: 1.8rem;
+}
+
+#mainNavbar .navbar-brand:hover{ 
+    color: #0abcfc;
 }
 
 .navbar.scrolled {
