@@ -1,3 +1,4 @@
-#WEB VERSION
+# WEB VERSION
 
-- Under Development.
+- **Under Development.**
+- ***HTML/CSS/Bootsrap4/JavaScript***

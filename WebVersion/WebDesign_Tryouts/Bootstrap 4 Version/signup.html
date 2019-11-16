@@ -47,20 +47,25 @@
         <div class="container">
             <div class="row justify-content-center">
                     <div class="col-md-6">
-                        <form>
+                        <form class="my-5">
+                            <div class="form-group">
+                                    <div class="row">
+                                            <div class="col">
+                                              <input type="text" class="form-control" placeholder="First name">
+                                            </div>
+                                            <div class="col">
+                                              <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+                                          </div>
+                            </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                <label for="exampleInputPassword1">Password</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                               </div>
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Enter Name">
-                            </div>
                             <div class="form-group">
                                     <h6 class="display-5">Gender:</h6>
                                     <div class="row">
@@ -77,6 +82,51 @@
                                                 <label for="gender">Other</label>
                                         </div>
                                     </div>    
+                            </div>
+                            <div class="form-group">
+                                <h6 class="display-5">Birthday:</h1>
+                                <div class="row justify-content-between">
+                                    <div class="col-md-4">
+                                            <select class="custom-select" id="inputGroupSelect01">
+                                                    <option selected>Date</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                  </select>
+                                    </div>    
+                                    <div class="col-md-4">
+                                            <select class="custom-select" id="inputGroupSelect01">
+                                                    <option selected>Month</option>
+                                                    <option value="1">January</option>
+                                                    <option value="2">February</option>
+                                                    <option value="3">March</option>
+                                                  </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                            <select class="custom-select" id="inputGroupSelect01">
+                                                    <option selected>Year</option>
+                                                    <option value="1">1999</option>
+                                                    <option value="2">2000</option>
+                                                    <option value="3">2001</option>
+                                                  </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                                <label class="input-group-text" for="inputGroupSelect01">Country</label>
+                                        </div>
+                                        <select class="custom-select" id="inputGroupSelect01">
+                                                <option selected>Choose...</option>
+                                                <option value="1">India</option>
+                                                <option value="2">United Kingdom</option>
+                                                <option value="3">United States</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                    <button type="submit" class="btn btn-primary">Sign Up!</button>
                             </div>
                         </form>
                     </div>              
